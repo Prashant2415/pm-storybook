@@ -1,0 +1,20 @@
+.heading{
+    margin: 0;
+}
+.button-one{
+    background: orangered;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 18px;
+    font-family: "Iceland", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.button-one:hover{
+    background: #ffffff;
+    color: orangered;
+}
+.para{
+    width: 80%;
+}

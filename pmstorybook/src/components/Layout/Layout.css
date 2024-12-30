@@ -1,0 +1,29 @@
+.main-container{
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    height: 70vh;
+    padding-right: 2rem;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+.header-title{
+    color: orangered;
+}
+.footer-container{
+    background: #000000;
+    color: #ffffff;
+}
+.sidebar-container{
+    width: 50%;
+    background: lightgray;
+    padding: 1rem 0.5rem;
+    height: 95%;
+}
