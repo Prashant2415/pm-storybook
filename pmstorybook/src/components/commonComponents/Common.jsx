@@ -17,8 +17,8 @@ export const ButtonOne =({buttonTitle, handleClick})=>{
     )
 }
 
-export const Para = ({paraText})=>{
+export const Para = ({paraText, className})=>{
     return(
-        <p className="para">{paraText}</p>
+        <p className={`para ${className}`}>{paraText}</p>
     )
 }

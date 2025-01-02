@@ -4,6 +4,7 @@ import PublicHomePage from './PublicHomePage'
 import About from '../mainComponents/About'
 import Home from '../mainComponents/Home'
 import TextGenerator from '../mainComponents/TextGenerator'
+import Testimonial from '../mainComponents/Testimonial'
 
 const HomeTemplate = () => {
   const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const HomeTemplate = () => {
         {
           path: "/textGenerator",
           element: <TextGenerator/>
+        },
+        {
+          path: "/testimonial",
+          element: <Testimonial/>
         }
       ]
     }
