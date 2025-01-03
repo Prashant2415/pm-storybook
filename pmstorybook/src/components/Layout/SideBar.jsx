@@ -10,6 +10,7 @@ const SideBar = () => {
         <ul>
           <li><Link to="/textGenerator" className="link">Text Generator</Link></li>
           <li><Link to="/testimonial" className="link">Testimonial</Link></li>
+          <li><Link to="/filter" className="link">Filter</Link></li>
           
         </ul>
       </div>
