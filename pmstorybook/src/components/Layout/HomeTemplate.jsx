@@ -6,6 +6,7 @@ import Home from '../mainComponents/Home'
 import TextGenerator from '../mainComponents/TextGenerator'
 import Testimonial from '../mainComponents/Testimonial'
 import Filter from '../mainComponents/Filter'
+import Sorting from '../mainComponents/Sorting'
 
 const HomeTemplate = () => {
   const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const HomeTemplate = () => {
         {
           path: "/filter",
           element: <Filter/>
+        },
+        {
+          path: "/sorting",
+          element: <Sorting/>
         }
       ]
     }

@@ -26,3 +26,10 @@
     padding: 1rem 0.5rem;
     height: 95%;
 }
+.link{
+    color: orangered;
+    text-decoration: none;
+}
+.ul{
+    padding-left: 16px;
+}

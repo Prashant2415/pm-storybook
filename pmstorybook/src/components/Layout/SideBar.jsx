@@ -7,10 +7,11 @@ const SideBar = () => {
     <div className='sidebar-container'>
       <Heading heading="Components"/>
       <div className="link-container">
-        <ul>
+        <ul className='ul'>
           <li><Link to="/textGenerator" className="link">Text Generator</Link></li>
           <li><Link to="/testimonial" className="link">Testimonial</Link></li>
           <li><Link to="/filter" className="link">Filter</Link></li>
+          <li><Link to="/sorting" className="link">Sorting</Link></li>
           
         </ul>
       </div>

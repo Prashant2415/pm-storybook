@@ -53,3 +53,36 @@
 .previous-arrow:hover, .next-arrow:hover{
     background: white;
 }
+/* Filter Component */
+
+.filter-container{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    margin-top: 1rem;
+}
+/* Sorting Container */
+.sorting-container{
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-top: 1rem;
+    padding: 2rem 0rem 0rem 2rem;
+}
+.card-container{
+    margin: 1rem 0rem 0rem 0rem;
+    display: flex;
+    gap: 1rem;
+    padding: 0rem 0rem 0rem 0rem;
+}
+.details{
+    border: 1px solid;
+    padding: 0.5rem;
+    width: 6rem;
+}
+.name{
+    margin: 0;
+}
+.age{
+    margin: 0;
+    color: orangered;
+}
